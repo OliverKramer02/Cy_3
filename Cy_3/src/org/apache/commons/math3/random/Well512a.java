@@ -1,0 +1,59 @@
+/*   1:    */ package org.apache.commons.math3.random;
+/*   2:    */ 
+/*   3:    */ public class Well512a
+/*   4:    */   extends AbstractWell
+/*   5:    */ {
+/*   6:    */   private static final long serialVersionUID = -6104179812103820574L;
+/*   7:    */   private static final int K = 512;
+/*   8:    */   private static final int M1 = 13;
+/*   9:    */   private static final int M2 = 9;
+/*  10:    */   private static final int M3 = 5;
+/*  11:    */   
+/*  12:    */   public Well512a()
+/*  13:    */   {
+/*  14: 57 */     super(512, 13, 9, 5);
+/*  15:    */   }
+/*  16:    */   
+/*  17:    */   public Well512a(int seed)
+/*  18:    */   {
+/*  19: 64 */     super(512, 13, 9, 5, seed);
+/*  20:    */   }
+/*  21:    */   
+/*  22:    */   public Well512a(int[] seed)
+/*  23:    */   {
+/*  24: 72 */     super(512, 13, 9, 5, seed);
+/*  25:    */   }
+/*  26:    */   
+/*  27:    */   public Well512a(long seed)
+/*  28:    */   {
+/*  29: 79 */     super(512, 13, 9, 5, seed);
+/*  30:    */   }
+/*  31:    */   
+/*  32:    */   protected int next(int bits)
+/*  33:    */   {
+/*  34: 86 */     int indexRm1 = this.iRm1[this.index];
+/*  35:    */     
+/*  36: 88 */     int vi = this.v[this.index];
+/*  37: 89 */     int vi1 = this.v[this.i1[this.index]];
+/*  38: 90 */     int vi2 = this.v[this.i2[this.index]];
+/*  39: 91 */     int z0 = this.v[indexRm1];
+/*  40:    */     
+/*  41:    */ 
+/*  42: 94 */     int z1 = vi ^ vi << 16 ^ vi1 ^ vi1 << 15;
+/*  43: 95 */     int z2 = vi2 ^ vi2 >>> 11;
+/*  44: 96 */     int z3 = z1 ^ z2;
+/*  45: 97 */     int z4 = z0 ^ z0 << 2 ^ z1 ^ z1 << 18 ^ z2 << 28 ^ z3 ^ z3 << 5 & 0xDA442D24;
+/*  46:    */     
+/*  47: 99 */     this.v[this.index] = z3;
+/*  48:100 */     this.v[indexRm1] = z4;
+/*  49:101 */     this.index = indexRm1;
+/*  50:    */     
+/*  51:103 */     return z4 >>> 32 - bits;
+/*  52:    */   }
+/*  53:    */ }
+
+
+/* Location:           C:\Users\Olli\Desktop\NetworkPrioritizer-1.01.jar
+ * Qualified Name:     org.apache.commons.math3.random.Well512a
+ * JD-Core Version:    0.7.0.1
+ */

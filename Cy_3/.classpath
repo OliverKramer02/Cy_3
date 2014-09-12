@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-jdesktop-layout.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-api-annotations-common.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-api-progress.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-api-search.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-api-visual.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-core.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-core-execution.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-core-io-ui.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-core-multitabs.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-core-multiview.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-core-nativeaccess.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-core-netigso.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-core-network.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-core-osgi.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-core-output2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-core-ui.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-core-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-libs-felix.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-libs-javafx.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-libs-jna.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-libs-jna-platform.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-libs-jsr223.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-libs-junit4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-libs-osgi.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-libs-testng.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-lib-uihandler.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-applemenu.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-autoupdate-cli.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-autoupdate-services.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-autoupdate-ui.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-core-kit.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-editor-mimelookup.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-editor-mimelookup-impl.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-favorites.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-javahelp.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-keyring.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-keyring-fallback.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-keyring-impl.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-masterfs.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-masterfs-linux.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-masterfs-macosx.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-masterfs-nio2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-masterfs-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-netbinox.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-options-api.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-options-keymap.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-print.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-progress-ui.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-queries.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-sampler.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-sendopts.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-settings.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-spi-actions.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-templates.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-modules-uihandler.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-spi-quicksearch.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-swing-outline.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-swing-plaf.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-netbeans-swing-tabcontrol.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-openide-actions.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-openide-awt.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-openide-compat.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-openide-dialogs.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-openide-execution.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-openide-explorer.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-openide-io.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-openide-loaders.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-openide-nodes.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-openide-options.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-openide-text.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-openide-util-enumerations.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans 8.0/platform/modules/org-openide-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Olli/git/cytoscape-app-developer/target/lib/api-3.2.0-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Olli/git/cytoscape-app-developer/target/lib/cytoscape-swing-app-api-3.2.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Olli/git/cytoscape-app-developer/target/lib/impl-3.2.0-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

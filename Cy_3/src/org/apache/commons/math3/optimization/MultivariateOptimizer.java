@@ -1,0 +1,13 @@
+package org.apache.commons.math3.optimization;
+
+import org.apache.commons.math3.analysis.MultivariateFunction;
+
+public abstract interface MultivariateOptimizer
+  extends BaseMultivariateOptimizer<MultivariateFunction>
+{}
+
+
+/* Location:           C:\Users\Olli\Desktop\NetworkPrioritizer-1.01.jar
+ * Qualified Name:     org.apache.commons.math3.optimization.MultivariateOptimizer
+ * JD-Core Version:    0.7.0.1
+ */
